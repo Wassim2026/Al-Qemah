@@ -45,8 +45,8 @@ const ContactUs = () => {
                 <div className="icon mb-2"><i className="fa fa-envelope fa-2x"></i></div>
                 <h5>Mail</h5>
                 <p>
-                  <a href="mailto:info@AL.com" className="text-decoration-none text-dark">
-                    <i className="fa fa-envelope me-2"></i>info@AL.com
+                  <a href="mailto:info@alqemah.ae" className="text-decoration-none text-dark">
+                    <i className="fa fa-envelope me-2"></i>info@alqemah.ae
                   </a>
                 </p>
               </div>

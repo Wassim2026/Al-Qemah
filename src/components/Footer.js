@@ -108,7 +108,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <FaEnvelope className="me-2 text-danger" />
-                info@alqem.com
+                info@alqemah.ae
               </li>
             </ul>
           </Col>
