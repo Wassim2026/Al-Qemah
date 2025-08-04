@@ -7,6 +7,10 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 
 
