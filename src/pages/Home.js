@@ -141,25 +141,29 @@ const Home = () => {
         </div>
 
         <div className="steps my-5">
-      <Slider {...settings}>
-        {data.map((item, idx) => (
-          <div key={idx} className="px-3">
-            <Card className="border-0 shadow-sm text-center h-100">
-              <Card.Img
-                variant="top"
-                src={item.img}
-                alt={item.title}
-                className="img-fluid"
-                style={{ height: '200px', objectFit: 'cover', borderRadius: '10px 10px 0 0' }}
-              />
-              <Card.Body>
-                <Card.Title className="fw-bold">{item.title}</Card.Title>
-                <Card.Text>{item.desc}</Card.Text>
+          <Slider {...settings}>
+            {data.map((item, idx) => (
+              <div key={idx} className="px-3">
+                <Card className="border-0 shadow-sm text-center h-100">
+                  
+                  <Card.Img
+                    variant="top"
+                    src={item.img}
+                    alt={item.title}
+                    className="img-fluid"
+                    style={{ height: '200px', objectFit: 'cover', borderRadius: '10px 10px 0 0' }}
+                  />
+                  <Card.Body>
+                <div className="d-flex justify-content-center align-items-center gap-2 mb-2">
+                  <span className="badge bg-dark rounded-circle px-3 py-2">{idx + 1}</span>
+                  <Card.Title className="fw-bold mb-0 text-start" style={{color: "#052c65"}}>{item.title}</Card.Title>
+                </div>
+                <Card.Text className='text-muted'>{item.desc}</Card.Text>
               </Card.Body>
-            </Card>
-          </div>
-        ))}
-      </Slider>
+                </Card>
+              </div>
+            ))}
+          </Slider>
     </div>
       </div>
     </section>
