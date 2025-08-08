@@ -10,17 +10,21 @@ const Navbar = () => {
 
       {/* Navbar */}
       <BootstrapNavbar expand="lg" className="bg-white shadow-sm px-5 py-3">
-        <BootstrapNavbar.Brand as={Link} to="/">
-        <img 
-          src="/img/logo.png" 
-          alt="AL QEMAH GOLDSMITH Logo" 
-          height="90"
-          className="d-inline-block align-top"
-        />
-      </BootstrapNavbar.Brand>
+        <BootstrapNavbar.Brand as={Link} to="/" className="d-flex flex-column align-items-center">
+          <img 
+            src="/img/logo.png" 
+            alt="AL QEMAH GOLDSMITH Logo" 
+            height="90"
+            className="d-inline-block align-top"
+          />
+          <span style={{ fontSize: '1rem', fontWeight: '700', marginTop: '4px', color: '#d0a507ff', textAlign: 'center', }}>
+            Al Qemah Al Thahabiah <br/> Goldsmiths LLC
+          </span>
+        </BootstrapNavbar.Brand>
+        
         <BootstrapNavbar.Toggle />
         <BootstrapNavbar.Collapse>
-          <Nav className="me-auto" style={{ marginLeft: '80px', gap:'30px', fontSize:'18px' }}>
+          <Nav className="me-auto" style={{ marginLeft: '80px', gap: '30px', fontSize: '18px' }}>
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
@@ -28,6 +32,7 @@ const Navbar = () => {
           </Nav>
         </BootstrapNavbar.Collapse>
       </BootstrapNavbar>
+
     </>
   );
 };
