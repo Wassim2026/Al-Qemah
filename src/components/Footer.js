@@ -7,7 +7,8 @@ import {
   FaFacebookF,
   FaInstagram,
   FaTwitter,
-  FaLinkedinIn
+  FaLinkedinIn,
+  FaPhoneSquare
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -105,6 +106,10 @@ const Footer = () => {
               <li className="mb-2">
                 <FaPhoneAlt className="me-2 text-danger" />
                 +971 54-505-9963
+              </li>
+              <li className="mb-2">
+                <FaPhoneSquare className="me-2 text-danger" />
+                +971-65-220-955
               </li>
               <li className="mb-2">
                 <FaEnvelope className="me-2 text-danger" />
