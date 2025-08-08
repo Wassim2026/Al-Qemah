@@ -32,7 +32,7 @@ const Home = () => {
       </section>
 
       {/* WhatsApp Floating Button */}
-      <a href="https://wa.me/971545059963" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
+      <a href="https://wa.me/971524238060" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
         <FaWhatsapp size={50} color="#25D366" />
       </a>
     </div>

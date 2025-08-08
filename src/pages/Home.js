@@ -26,8 +26,8 @@ const Home = () => {
     },
     {
       img: 'img/step3.jpeg',
-      title: 'LOREN ISPUM',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.'
+      title: 'Crafting Kuwaiti & Bahraini Elegance',
+      desc: 'This is where tradition meets precision. Our artisans carefully heat each gold piece by hand, using age-old techniques to preserve the delicate details of authentic Kuwaiti and Bahraini designs. Every part of the process reflects passion, patience, and mastery — ensuring that each ornament shines with cultural richness and timeless beauty.'
     },
     {
       img: 'img/step4.jpeg',
@@ -82,29 +82,48 @@ const Home = () => {
       >
         <Container>
           <div className="row align-items-center">
-            {/* Left Text */}
-            <div className="col-md-6 mb-4 text-md-start text-center">
-              <h1 className="fw-bold" style={{ fontSize: '2.8rem' }}>
-                Discover Elegant Gold Necklaces
-              </h1>
-              <p className="fs-5 mt-3">
-                Handcrafted designs that define sophistication.<br />
-                Perfect for every occasion.
-              </p>
-            </div>
-
-            {/* Left Logo */}
-            {/* <div className="col-md-6 mb-4 text-md-start text-center">
+            {/* Left Text with gradient background + logo */}
+            <div
+              className="col-md-6 mb-4 text-md-start text-center position-relative"
+              style={{
+                overflow: 'hidden',
+                // background: 'linear-gradient(to right, #1f4267ff, #232d39ff)', // same gradient
+              }}
+            >
+              {/* Background logo */}
               <img
                 src="img/logo.png"
-                alt="Brand Logo"
-                className="img-fluid"
+                alt="Logo"
                 style={{
-                  maxWidth: '200px',
+                  position: 'absolute',
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  opacity: 0.15, // subtle visibility
+                  zIndex: 1,
+                  width: '40%', // adjust size as needed
+                  pointerEvents: 'none',
                 }}
               />
-            </div> */}
-      
+
+              {/* Text Content */}
+              <div
+                style={{
+                  position: 'relative',
+                  zIndex: 2, // above logo
+                  padding: '3rem 2rem',
+                }}
+              >
+                <h1 className="fw-bold" style={{ fontSize: '2.8rem' }}>
+                  Discover Elegant Gold Necklaces
+                </h1>
+                <p className="fs-5 mt-3">
+                  Handcrafted designs that define sophistication.<br />
+                  Perfect for every occasion.
+                </p>
+              </div>
+            </div>
+              
             {/* Right Image */}
             <div className="col-md-6 text-center">
               <img
@@ -113,7 +132,7 @@ const Home = () => {
                 className="img-fluid"
                 style={{
                   maxWidth: '50%',
-                  boxShadow: '0 8px 20px rgba(255, 215, 0, 0.3)',
+                  boxShadow: '0 8px 20px rgba(0, 0, 0, 0.3)',
                   borderRadius: '10px',
                 }}
               />
@@ -121,6 +140,7 @@ const Home = () => {
           </div>
         </Container>
       </div>
+
 
     <section className="custom-jewelry-section-four text-center" style={{ padding:"50px", backgroundColor:'#F5F5F5'}}>
       <div>
@@ -164,7 +184,7 @@ const Home = () => {
               </div>
             ))}
           </Slider>
-    </div>
+        </div>
       </div>
     </section>
 
@@ -217,7 +237,7 @@ const Home = () => {
           <div className="p-3">
             <button className="design-button">
               <a
-                href="https://wa.me/97152420" 
+                href="https://wa.me/971524238060" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -229,7 +249,7 @@ const Home = () => {
       </section>
 
       {/* WhatsApp Floating Button */}
-      <a href="https://wa.me/971545059963" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
+      <a href="https://wa.me/971524238060" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
         <FaWhatsapp size={50} color="#25D366" />
       </a>
     </div>
