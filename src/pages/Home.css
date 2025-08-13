@@ -33,3 +33,34 @@
   color: black;
   font-weight: 600;
 }
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-section {
+    height: 100vh;
+    background-position: top;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-section {
+    background-image: url('/public/img/mobileres.png') !important;
+    height: 200vh !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}   
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero-section {
+    background-image: url('/public/img/mobileres.png') !important;
+    height: 100vh !important;
+    background-size: 100% !important; /* smaller still */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

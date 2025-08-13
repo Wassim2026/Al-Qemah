@@ -72,7 +72,19 @@ const Home = () => {
 
   return (
     <div>
-      {/* Hero Section */}
+      <div
+        className="hero-section"
+        style={{
+          backgroundImage: "url('/img/homepage.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          width: "100%",
+          height: "130vh",
+        }}
+      >
+      </div>
+
+      {/* Hero Section
       <div
         className="hero-section text-white d-flex align-items-center"
         style={{
@@ -82,15 +94,14 @@ const Home = () => {
       >
         <Container>
           <div className="row align-items-center">
-            {/* Left Text with gradient background + logo */}
             <div
               className="col-md-6 mb-4 text-md-start text-center position-relative"
               style={{
                 overflow: 'hidden',
-                // background: 'linear-gradient(to right, #1f4267ff, #232d39ff)', // same gradient
+                // background: 'linear-gradient(to right, #1f4267ff, #232d39ff)',
               }}
             >
-              {/* Background logo */}
+              Background logo
               <img
                 src="img/logo.png"
                 alt="Logo"
@@ -106,7 +117,7 @@ const Home = () => {
                 }}
               />
 
-              {/* Text Content */}
+              Text Content
               <div
                 style={{
                   position: 'relative',
@@ -124,7 +135,7 @@ const Home = () => {
               </div>
             </div>
               
-            {/* Right Image */}
+            Right Image
             <div className="col-md-6 text-center">
               <img
                 src="img/goldnecklace.png"
@@ -139,7 +150,7 @@ const Home = () => {
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
 
 
     <section className="custom-jewelry-section-four text-center" style={{ padding:"50px", backgroundColor:'#F5F5F5'}}>
@@ -237,7 +248,7 @@ const Home = () => {
           <div className="p-3">
             <button className="design-button">
               <a
-                href="https://wa.me/971524238060" 
+                href="https://wa.me/971567968421" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -245,11 +256,11 @@ const Home = () => {
               </a>
             </button>
           </div>
-        </div>
+        </div>  
       </section>
 
       {/* WhatsApp Floating Button */}
-      <a href="https://wa.me/971524238060" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
+      <a href="https://wa.me/971567968421" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
         <FaWhatsapp size={50} color="#25D366" />
       </a>
     </div>

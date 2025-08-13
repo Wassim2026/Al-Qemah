@@ -45,8 +45,8 @@ const ContactUs = () => {
                 <div className="icon mb-2"><i className="fa fa-envelope fa-2x"></i></div>
                 <h5>Mail</h5>
                 <p>
-                  <a href="mailto:info@alqemah.ae" className="text-decoration-none text-dark">
-                    <i className="fa fa-envelope me-2"></i>info@alqemah.ae
+                  <a href="mailto:info@alqemahgoldsmith.com" className="text-decoration-none text-dark">
+                    <i className="fa fa-envelope me-2"></i>info@alqemahgoldsmith.com
                   </a>
                 </p>
               </div>
@@ -103,7 +103,7 @@ const ContactUs = () => {
         </div>
       </section>
       {/* WhatsApp Floating Button */}
-      <a href="https://wa.me/971524238060" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
+      <a href="https://wa.me/971567968421" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
         <FaWhatsapp size={50} color="#25D366" />
       </a>
     </>

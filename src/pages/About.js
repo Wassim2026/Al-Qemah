@@ -37,15 +37,14 @@ const About = () => {
         style={{ maxHeight: '400px', objectFit: 'cover', width: '100%' }}
       />
     </div>
-
-    {/* WhatsApp Floating Button */}
-    <a href="https://wa.me/971524238060" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
-      <FaWhatsapp size={50} color="#25D366" />
-    </a>
   </div>
 </div>
 
 
+{/* WhatsApp Floating Button */}
+      <a href="https://wa.me/971567968421" target='blank' className="position-fixed bottom-0 end-0 m-4" style={{ zIndex: 1050 }}>
+        <FaWhatsapp size={50} color="#25D366" />
+      </a>
     </>
 
   );

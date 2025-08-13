@@ -99,7 +99,7 @@ const TestimonialSwiper = () => {
                 </Swiper>
             </div>
             <div className="d-flex justify-content-center align-items-center mt-3">
-                <a href="https://wa.me/971524238060" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/971567968421" target="_blank" rel="noopener noreferrer">
                     <Button
                         variant="danger"
                         className="rounded-pill mt-4 px-4 py-2"
